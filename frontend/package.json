@@ -53,5 +53,5 @@
     "react-router-dom": "^6.23.1",
     "tailwindcss": "^3.4.4"
   },
-  "proxy": "https://villa-booking-server-rlcq1dr9g-felixsetio88s-projects.vercel.app/api"
+  "proxy": "https://villa-booking-server-mle9qtidk-felixsetio88s-projects.vercel.app/api"
 }
