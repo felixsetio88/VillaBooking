@@ -32,7 +32,7 @@ mongoose.connection.on("disconnected", () => {
 app.use(cors(
   {
     origin: ["https://villa-booking-server.vercel.app/"],
-    methods: ["POST", "GET", "PUT"],
+    methods: ["POST", "GET"],
     credentials: true
   }
 ));
