@@ -29,7 +29,13 @@ mongoose.connection.on("disconnected", () => {
 });
 
 // Middlewares
-app.use(cors());
+app.use(cors(
+  {
+    origin: ["https://villa-booking-server.vercel.app/"],
+    methods: ["POST", "GET", "PUT"],
+    credentials: true
+  }
+));
 app.use(cookieParser());
 app.use(express.json());
 app.use(bodyParser.json());
